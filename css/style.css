@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+/* header and nav styles */
+
+header {
+    background-color: #3b3737;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+}
+header img {
+    display: inline-block;
+    margin: 15px 0px 15px 0;
+}
+nav {
+    display: inline-block;
+}
+header img {
+    margin-left: 200px;
+}
+nav ul {
+    margin: 80px 0px 80px 50px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 70px;
+    position: relative;
+    bottom: 45px;
+    color: gray;
+}
+
+/* main body styles */
+
+
+main {
+    margin: 0 auto;
+    width: 960px;
+}
+#hero {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#first {
+    width: 960px;
+    margin-bottom: 30px;
+}
+#first :nth-child(2) {
+    margin: 0px 25px 0px 25px;
+}
+#second {
+    width: 960px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+#second img {
+    margin-right: 25px;
+}
+article {
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+}
+article p {
+    overflow: scroll;
+    height: 300px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    position: relative;
+    bottom: -23px;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #3b3737;
+}
